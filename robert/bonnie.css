@@ -1,0 +1,27 @@
+table {
+    width: 60%;
+    border-collapse:collapse;
+    margin: 20px auto;
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+th {
+    background-color: rgb(96, 146, 146);
+    color: #0761e9f5;
+}
+tr:nth-child(even) {
+    background-color: #ad3c3c;
+}
+tr:hover {
+    background-color: #30c481;
+    cursor: pointer;
+}
+body {
+    background-image: url(151111-bonnie-amp_main_media_schema-1.webp);
+      max-width: 500px;
+  margin: auto;
+}
